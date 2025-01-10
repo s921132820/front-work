@@ -1,0 +1,77 @@
+.container{
+  width:600px;
+  margin:10px auto;
+}
+
+fieldset {
+  margin-bottom:20px;
+}
+
+ul {
+  list-style:none;
+  padding-left: 0;
+}
+
+ul li {
+  margin:10px;
+}
+
+ul li label {
+  width:160px;
+  display:inline-block;
+  line-height:30px;
+  font-weight:600;
+}
+
+.product_container ul li label {
+  width:100%;
+}
+
+.product_container .user-info ul li label {
+  width:100px;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 300px;
+  height:30px;
+}
+
+#path {
+  width:150px;
+  height:30px;
+}
+
+.buttons {
+  width:400px;
+  margin:20px auto;
+  text-align: center;
+}
+
+.buttons input {
+  width:150px;
+  height:50px;
+  border:none;
+  border-radius: 5px;
+}
+
+.buttons input:hover {
+  color:#fff;
+  background:rgb(27, 134, 221);
+  border-color:#fff;
+  border-radius: 5px;
+}
+
+.product_container ul li {
+  display:flex;
+  align-items: center;
+}
+.product_container .ea_input {
+  width:40px;
+}
+
+.tx18{font-size:18px;}
+.tx30{font-size:30px;}
+.fw600{font-weight:600;}

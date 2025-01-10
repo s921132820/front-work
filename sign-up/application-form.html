@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/sign-up.css">
+  <script defer src="./js/application-form.js"></script>
+
+  <title>프런트엔드 개발 지원서</title>
+</head>
+<body>
+  <!-- 지원서 -->
+  <div class="container">
+    <form action="" method="get" onsubmit="check(event)">
+      <fieldset>
+        <p class="tx30 fw600">프런트엔드 개발 지원서</p>
+        <p>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
+        <hr>
+      
+        <p class="tx18 fw600">개인정보</p>
+        <ul>
+          <li>
+            <label for="uname">이름</label>
+            <input type="text" id="uname" name="uname" placeholder="이름을 입력하세요" autofocus>
+          </li>
+          <li>
+            <label for="phone">연락처</label>
+            <input type="text" name="phone" id="phone">
+          </li>
+        </ul>
+
+        <p class="tx18 fw600">지원분야</p>
+        <ul>
+          <li>
+            <input type="radio" name="field" id="field_1" value="1" checked>
+            <label for="feild_1" >웹 퍼블리싱</label>
+          </li>
+          <li>
+            <input type="radio" name="field" id="field_2" value="2">
+            <label for="field_2" >웹 애플리케이션 개발</label>
+          </li>
+          <li>
+            <input type="radio" name="field" id="field_3" value="3">
+            <label for="field_3" >개발 환경 개선</label>
+          </li>
+        </ul>
+
+        <p>지원동기</p>
+        <textarea rows="8" cols="70" name="motivation" id="motivation"></textarea>
+
+        <div class="buttons">
+          <input type="submit" value="제출하기">
+          <input type="reset" value="다시쓰기">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
