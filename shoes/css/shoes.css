@@ -121,3 +121,48 @@ div, input, textarea {
 .yellow-button {
   background:yellow;
 }
+
+.product-container {
+  width:80%;
+  max-width:1000px;
+  margin:50px auto;
+  /* display:flex; */
+}
+
+.product-container div {
+  border:1px solid red;
+  float:left;
+  width:25%;
+  text-align:center;
+}
+
+@media screen and (max-width:1200px) {
+  /* 화면의 크기가 1200px 이하일 때 적용할 css를 기술 */
+  /* 태블릿 사이즈 */
+  .main-title {
+    font-size:30px;
+  }
+
+  .product-container div {
+    width:50%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  /* 화면의 크기가 768px 이하일 때 적용할 css를 기술 */
+  /* 모바일 사이즈 */
+  .main-title {
+    font-size:20px;
+  }
+
+  .product-container div {
+    width:100%;
+  }
+}
+
+@media screen and (max-width:576px) {
+  /* 화면의 크기가 768px 이하일 때 적용할 css를 기술 */
+  .main-title {
+    font-size:10px;
+  }
+}
