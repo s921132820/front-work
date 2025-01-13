@@ -130,11 +130,22 @@ div, input, textarea {
 }
 
 .product-container div {
-  border:1px solid red;
   float:left;
   width:25%;
   text-align:center;
 }
+
+.product-container div i {
+  color:#fff;
+  background:burlywood;
+  width:100px;
+  height:100px;
+  border-radius:100%;
+  padding-top:25px;
+  margin-top:20px;
+  box-sizing: border-box;
+}
+
 
 @media screen and (max-width:1200px) {
   /* 화면의 크기가 1200px 이하일 때 적용할 css를 기술 */
